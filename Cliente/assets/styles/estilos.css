@@ -1,0 +1,33 @@
+.banner
+{
+background-image: url(/assets/img/banner.jpg);
+background-position: top center;
+background-size: cover;
+background-attachment: fixed;
+padding: 20%;
+z-index: 1;
+}
+.banner::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+.menu
+{
+background-color: #00329f;
+}
+.banner2
+{
+background-image: url(/assets/img/toy-story-happy-family-488drkkpeh9qvcan.jpg);
+background-position: top center;
+background-size: cover;
+background-attachment: fixed;
+padding: 20%;
+}
